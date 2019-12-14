@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    padding: 2%;
+    background-color: #F6F8F9;
+}
+
+.all{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10%;
+    margin: auto 0;   
+    height: 90%;
+    width: 80%;     
+    box-shadow: 1px 2px 2px 2px #7f7f7f;
+}
+.box{
+    background-color: #FFFFFF;
+    margin: auto ;  
+}
+.remember-me{
+    float: left;
+}
+.forgot-pass{
+    float: right;
+}
+legand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1cm;
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+    }
+#fieldset{
+    border: 0px;
+    width: 50%;
+    height: 60%;
+    margin: auto;    
+}
+.triangle-up {
+    color: #BF574A;
+}
+#tb{
+    width: 60%;
+    height: 30px;
+    border: solid #D3D3D3 1px;
+    border-radius: 5px;
+    margin-bottom: 20px;}
+.button{
+    margin-top: 40px;
+    font-family: roboto;
+    font-weight: 700;
+    border-radius: 25px;
+    border: 0px;
+    padding: 15px 50px 15px 50px;
+    /* width: 130px;
+    height: 40px; */
+    background-color: #32BDD2;
+    -webkit-text-fill-color: #FFFFFF; 
+}
