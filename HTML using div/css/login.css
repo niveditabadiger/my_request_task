@@ -6,8 +6,7 @@
 .box{
     background-color: white ;
     width: 50%;
-    height: 60%;
-    top: 20%;
+    top: 10%;
     position: relative;
     margin: 0 auto;
 }
@@ -26,29 +25,30 @@
     float: right;
 }
 .All{   
-    border-radius: 5%;
+    border-radius: 12px;
     background-color: white;
     width: 85%;
-    height: 65%;
     align-self: center;
     padding: 7%;
 }
 #tb{
     width: 60%;
-    height: 10px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 #tbp{
     width: 60%;
-    height: 10px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 .button{
-    border-radius: 35%;
-    width: 3cm;
-    background-color: #0C7EF1;
+    border-radius: 21px;
+    padding: 2% 5% 2% 5%;
+    background-color: #32BDD2;
     -webkit-text-fill-color: aliceblue; 
 }
 .bdy{
     background-color: gray;
+}
+.field{
+    color:red;
+    font-size:12px
 }
