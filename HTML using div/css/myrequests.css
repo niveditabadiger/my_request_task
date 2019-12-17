@@ -32,7 +32,8 @@ body{
 .contents{
     background-color: #FFFFFF;
     padding: 5px;
-    display: flex;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 .myrequests{
     width: 100%;
@@ -57,4 +58,15 @@ body{
     justify-content: center;
     padding: 1%;
     /* padding: .5%; */
+}
+.filter{
+    width: 100%;
+    display: flex;
+}
+.detail{
+    width: 100%;
+    display: flex;
+}
+.detail-info{
+    width: 30%;
 }
