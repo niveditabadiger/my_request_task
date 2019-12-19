@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Items</title>
+        <style>
+             *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                        
+            }
+            body{
+                background-color: #F6F8F9;
+            }
+            /*  SECTIONS  */
+            .section {
+                clear: both;
+                padding: 0px;
+                margin: 0px;
+                background-color: #FFFFFF;
+            }
+
+            /*  COLUMN SETUP  */
+            .col {
+                display: block;
+                float:left;
+                margin: 1% 0 1% 1.6%;
+            }
+            .col:first-child { margin-left: 0; }
+
+            /*  GROUPING  */
+            .group:before,
+            .group:after { content:""; display:table; }
+            .group:after { clear:both;}
+            .group { zoom:1; /* For IE 6/7 */ }
+
+            /*  GRID OF SEVEN  */
+            .span_7_of_7 {
+                width: 100%;
+            }
+
+            .span_6_of_7 {
+                width: 85.48%;
+            }
+
+            .span_5_of_7 {
+                width: 70.97%;
+            }
+
+            .span_4_of_7 {
+                width: 56.45%;
+            }
+
+            .span_3_of_7 {
+                width: 41.94%;
+            }
+
+            .span_2_of_7 {
+                width: 27.42%;
+            }
+
+            .span_1_of_7 {
+                width: 12.91%;
+            }
+
+            /*  GO FULL WIDTH BELOW 480 PIXELS */
+            @media only screen and (max-width: 480px) {
+                .col {  margin: 1% 0 1% 0%; }
+                .span_1_of_7, .span_2_of_7, .span_3_of_7, .span_4_of_7, .span_5_of_7, .span_6_of_7, .span_7_of_7 { width: 100%; }
+            }
+
+
+
+            .content{
+                padding: 2%;
+            }
+
+
+
+            /*  SECTIONS  */
+            .section {
+                clear: both;
+                padding: 0px;
+                margin: 0px;
+                background-color: #FFFFFF;
+            }
+
+            /*  COLUMN SETUP  */
+            .col {
+                display: block;
+                float:left;
+                margin: 1% 0 1% 1.6%;
+            }
+            .col:first-child { margin-left: 0; }
+
+            /*  GROUPING  */
+            .group:before,
+            .group:after { content:""; display:table; }
+            .group:after { clear:both;}
+            .group { zoom:1; /* For IE 6/7 */ }
+            /*  GRID OF TWO  */
+            .span_2_of_2 {
+                width: 100%;
+            }
+            .span_1_of_2 {
+                width: 49.2%;
+            }
+
+            /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+            @media only screen and (max-width: 480px) {
+                .col { 
+                    margin: 1% 0 1% 0%;
+                }
+            }
+
+            @media only screen and (max-width: 480px) {
+                .span_2_of_2, .span_1_of_2 { width: 100%; }
+            }
+
+
+            /*  SECTIONS  */
+            .section {
+                clear: both;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            /*  COLUMN SETUP  */
+            .col {
+                display: block;
+                float:left;
+                margin: 1% 0 1% 0.1%;
+            }
+            .col:first-child { margin-left: 0; }
+
+            /*  GROUPING  */
+            .group:before,
+            .group:after { content:""; display:table; }
+            .group:after { clear:both;}
+            .group { zoom:1; /* For IE 6/7 */ }
+            /*  GRID OF THREE  */
+            .span_3_of_3 { width: 100%; }
+            .span_2_of_3 { width: 66.63%; }
+            .span_1_of_3 { width: 33.26%; }
+
+            /*  GO FULL WIDTH BELOW 480 PIXELS */
+            @media only screen and (max-width: 480px) {
+                .col {  margin: 1% 0 1% 0%; }
+                .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+            }
+        </style>
+
+    </head>
+    <body>
+            <div class="section group">
+                    <div class="col span_1_of_7">
+                    <!-- 1 of 7 -->
+                        <img src="./icons/67.png" alt="profile" height="25" width="25"/>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <!-- 1 of 7 -->
+                    <p>HOME</p>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <!-- 1 of 7 -->
+                    <p>MY BORROWING</p>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <!-- 1 of 7 -->
+                    <p><u>MY WISHLIST</u></p>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <!-- 1 of 7 -->
+                    <p>MY REQUESTS</p>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <!-- 1 of 7 -->
+                        <img src="./icons/67.png" alt="profile" height="25" width="25"/>
+                    </div>
+                    <div class="col span_1_of_7">
+                        <img src="./icons/24.png" alt="Dropdown" height="25" width="25"/>
+                    </div>
+                </div>
+
+                <div class="content">
+                        <div class="section group">
+                            <div class="col span_1_of_2">
+                            <p><u> Titles</u></p>
+                            </div>
+                            <div class="col span_1_of_2">
+                            <!-- This is column 2 -->
+                            </div>
+                        </div>
+
+                        <div class="section group">
+                            <div class="col span_1_of_3">
+                                <img src="./icons/67.png" alt="Dropdown" height="25" width="25"/>
+                            </div>
+                            <div class="col span_1_of_3">
+                                <p>How Can you talk with GOD</p>
+                                <p>sri sri paramahansa Yognand</p>
+                                <p>1 Dec 2017</p>
+                            </div>
+                            <div class="col span_1_of_3">
+                                    <button type="submit" style="color: white;background-color: #32BDD2;padding: 1%;border-radius: 5px;float:right;width: :30%;">REMOVE</button>
+                            </div>
+                        </div>
+
+                        <div class="section group">
+                            <div class="col span_1_of_3">
+                                <img src="./icons/67.png" alt="Dropdown" height="25" width="25"/>
+                            </div>
+                            <div class="col span_1_of_3">
+                                <p>Journey To Self Realization</p>
+                                <p>sri sri paramahansa Yognand</p>
+                                <p>5 Dec 2001</p>
+                            </div>
+                            <div class="col span_1_of_3">
+                                    <button type="submit" style="color: white;background-color: #32BDD2;padding: 1%;border-radius: 5px;float:right;width: :30%;">REMOVE</button>
+                            </div>
+                        </div>
+
+                        <div class="section group">
+                            <div class="col span_1_of_3">
+                                <img src="./icons/67.png" alt="Dropdown" height="25" width="25"/>
+                            </div>
+                            <div class="col span_1_of_3">
+                                <p>Inner Engineering-A Yogi's Joy</p>
+                                <p>Sadguru</p>
+                                <p>12 Dec 2016</p>
+                            </div>
+                            <div class="col span_1_of_3">
+                                    <button type="submit" style="color: white;background-color: #32BDD2;padding: 1%;border-radius: 5px;float:right;width: :30%;">REMOVE</button>
+                            </div>
+                        </div>
+
+
+                        <div class="section group">
+                            <div class="col span_1_of_3">
+                                <img src="./icons/67.png" alt="Dropdown" height="25" width="25"/>
+                            </div>
+                            <div class="col span_1_of_3">
+                                <p>The Power Of Your Subconscious Mind </p>
+                                <p>Dr. Joseph Murphy</p>
+                                <p>2010</p>
+                            </div>
+                            <div class="col span_1_of_3">
+                                    <button type="submit" style="color: white;background-color: #32BDD2;padding: 1%;border-radius: 5px;float:right;width: :30%;">REMOVE</button>
+                            </div>
+                        </div>
+
+
+                        <div class="section group">
+                                <div class="col span_1_of_3">
+                                    <img src="./icons/67.png" alt="Dropdown" height="25" width="25"/>
+                                </div>
+                                <div class="col span_1_of_3">
+                                    <p>Autobiography of YOgi</p>
+                                    <p>sri sri paramahansa Yognand</p>
+                                    <p>2017</p>
+                                </div>
+                                <div class="col span_1_of_3">
+                                        <button type="submit" style="color: white;background-color: #32BDD2;padding: 1%;border-radius: 5px;float:right;width: :30%;">REMOVE</button>
+                                </div>
+                            </div>
+    
+
+                </div>
+
+    </body>
+</html>
